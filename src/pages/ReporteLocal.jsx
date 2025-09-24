@@ -159,7 +159,7 @@ const ReporteLocal = () => {
         
         <div className="relative max-w-7xl mx-auto px-6 py-20">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
-            {/* Left Column - Image and Title */}
+            {/* Left Column - Image and Titl */}
             <div className="text-white">
               <div className="flex items-center mb-8">
                 <div className="relative">

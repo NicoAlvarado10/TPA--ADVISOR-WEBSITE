@@ -42,7 +42,7 @@ export const Hero = () => {
               transition={{ duration: 0.5, delay: 0.3 }}
             >
               <p className="text-3xl font-bold text-[#ECC82C]">+15</p>
-              <p className="text-sm text-white/80">Años de experiencia</p>
+              <p className=" text-white/80">Años de experiencia</p>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -50,7 +50,7 @@ export const Hero = () => {
               transition={{ duration: 0.5, delay: 0.5 }}
             >
               <p className="text-3xl font-bold text-[#ECC82C]">+1.350</p>
-              <p className="text-sm text-white/80">Empresas satisfechas</p>
+              <p className=" text-white/80">Empresas satisfechas</p>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -58,7 +58,7 @@ export const Hero = () => {
               transition={{ duration: 0.5, delay: 0.7 }}
             >
               <p className="text-3xl font-bold text-[#ECC82C]">+19</p>
-              <p className="text-sm text-white/80">Países atendidos</p>
+              <p className=" text-white/80">Países atendidos</p>
             </motion.div>
           </div>
         </motion.div>

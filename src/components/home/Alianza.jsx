@@ -23,7 +23,7 @@ const Alianza = () => {
               key={num}
               src={`/../${num}.jpg`} 
               alt={`Logo ${num}`}
-              className="h-24 pr-10 cursor-pointer md:pr-30 grayscale-0 hover:grayscale transition duration-300 ease-in-out"
+              className="h-24 pr-10 cursor-pointer  md:pr-30 grayscale-0 hover:grayscale transition duration-300 ease-in-out"
             />
           ))}
         </Marquee>

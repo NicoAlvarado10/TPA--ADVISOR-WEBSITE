@@ -118,7 +118,7 @@ export const Nav = () => {
                   <div className="flex">
                     {/*Categorías principales */}
                     <div className="w-1/3 bg-gray-50 p-4 rounded-l-lg">
-                      <h3 className="text-xs font-bold text-blue-700 mb-3 uppercase tracking-wide">SERVICIOS</h3>
+                      <h3 className="text-sm text-blue-700 mb-3 uppercase tracking-wide">SERVICIOS</h3>
                       <ul className="space-y-1">
                         {Object.keys(servicesData).map((service) => (
                           <li 
@@ -147,7 +147,7 @@ export const Nav = () => {
                     <div className="w-2/3 p-6 min-h-[400px]">
                       {activeService ? (
                         <div>
-                          <h3 className="text-lg font-bold text-blue-700 mb-4 border-b pb-2">{activeService}</h3>
+                          <h3 className="text-lg  text-blue-700 mb-4 border-b pb-2">{activeService}</h3>
                           <ul className="grid grid-cols-1 gap-1 max-h-[320px] overflow-y-auto">
                             {servicesData[activeService].map((subservice, index) => (
                               <li key={index}>

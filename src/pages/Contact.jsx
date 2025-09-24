@@ -238,7 +238,7 @@ const Contact = () => {
                 <button
                   key={country}
                   onClick={() => setSelectedCountry(country)}
-                  className={`px-8 py-3 font-semibold transition-all duration-300 ${
+                  className={`px-8 py-3 font-semibold transition-all cursor-pointer duration-300 ${
                     selectedCountry === country
                       ? 'bg-[#ECC82C] text-gray-900'
                       : 'text-gray-600 hover:text-gray-900'
@@ -344,7 +344,7 @@ const Contact = () => {
                   <h4 className="text-xl font-semibold text-gray-600">Brochure Corporativo</h4>
                 </div>
               </div>
-              <button className="bg-[#002B70] hover:bg-blue-800 text-white font-bold py-3 px-8 rounded-lg transition duration-300">
+              <button className="bg-[#002B70] cursor-pointer hover:bg-blue-800 text-white font-bold py-3 px-8 rounded-lg transition duration-300">
                 DESCARGAR AHORA
               </button>
             </div>

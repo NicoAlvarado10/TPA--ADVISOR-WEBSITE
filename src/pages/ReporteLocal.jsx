@@ -326,7 +326,7 @@ const ReporteLocal = () => {
                 <h3 className="text-xl font-semibold text-gray-800 mb-6">Precios de Transferencia</h3>
                 <button 
                   onClick={() => alert('Descarga iniciada')}
-                  className="bg-blue-900 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-800 transform hover:scale-105 transition-all duration-200 shadow-lg"
+                  className="bg-blue-900 text-white px-8 py-4 cursor-pointer rounded-lg font-semibold hover:bg-blue-800 transform hover:scale-105 transition-all duration-200 shadow-lg"
                 >
                   DESCARGAR AHORA
                 </button>

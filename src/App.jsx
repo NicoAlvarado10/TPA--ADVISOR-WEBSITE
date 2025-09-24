@@ -8,11 +8,13 @@ import { Home } from './pages/Home'
 import Contact from './pages/Contact'
 import AuditoriaEstadosFinancieros from './pages/AuditoriaEstadosFinancieros'
 import ReporteLocal from './pages/ReporteLocal'
+import ScrollToTop from './components/common/ScrollTop'
 
 
 function App() {
   return (
     <Router>
+      <ScrollToTop/>
       <div className="App">
         <Nav />
         <Routes>

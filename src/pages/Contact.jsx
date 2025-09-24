@@ -266,7 +266,7 @@ const Contact = () => {
                   Contáctanos para que podamos
                 </h3>
                 <h4 className="text-2xl font-bold text-[#ECC82C] mb-6">
-                  resolver tus <span className="text-[#ECC82C]">dudas y consultas</span>
+                  Resolver tus <span className="text-[#ECC82C]">dudas y consultas</span>
                 </h4>
 
                 <a 

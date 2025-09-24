@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-br from-[#002B70] to-[#001A4D] text-white pt-16 ">
+    <footer className="bg-gradient-to-b from-[#002B70] to-[#001A4D] text-white pt-16 ">
       <div className="max-w-10/12 max-md:max-w-11/12 mx-auto grid grid-cols-5 max-lg:grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-2 gap-12 pb-16">
 
         {/* Bloque institucional */}
@@ -16,7 +16,7 @@ const Footer = () => {
 
         {/* Servicios */}
         <div>
-          <h3 className="text-lg font-semibold mb-4">Servicios</h3>
+          <h3 className="text-xl mb-4">Servicios</h3>
           <ul className="space-y-2 text-sm">
             <li><a href="#auditoria" className="hover:underline"><i className="ri-file-chart-line mr-2"></i>Auditoría y Finanzas</a></li>
             <li><a href="#transferencia" className="hover:underline"><i className="ri-exchange-dollar-line mr-2"></i>Precios de Transferencia</a></li>
@@ -28,7 +28,7 @@ const Footer = () => {
 
         {/* Enlaces de interés */}
         <div>
-          <h3 className="text-lg font-semibold mb-4">Enlaces de Interés</h3>
+          <h3 className="text-xl  mb-4">Enlaces de Interés</h3>
           <ul className="space-y-2 text-sm">
             <li><a href="#cronograma" className="hover:underline"><i className="ri-calendar-check-line mr-2"></i>Cronograma de Declaraciones Latam</a></li>
             <li><a href="#obligatoriedad" className="hover:underline"><i className="ri-search-line mr-2"></i>Consulta de Obligatoriedad</a></li>
@@ -37,7 +37,7 @@ const Footer = () => {
 
         {/* Sede Central */}
         <div>
-          <h3 className="text-lg font-semibold mb-4">Sede Central</h3>
+          <h3 className="text-xl  mb-4">Sede Central</h3>
           <ul className="space-y-2 text-sm">
             <li><a href="mailto:contacto@tpa-advisor.com" className="hover:underline"><i className="ri-mail-line mr-2"></i>contacto@tpa-advisor.com</a></li>
             <li><a href="https://goo.gl/maps/..." target="_blank" rel="noopener noreferrer" className="hover:underline"><i className="ri-map-pin-line mr-2"></i>Calle Los Gavilanes 159</a></li>
@@ -49,7 +49,7 @@ const Footer = () => {
 
         {/* Suscripción */}
         <div>
-          <h3 className="text-lg font-semibold mb-4">Suscribirse</h3>
+          <h3 className="text-xl mb-4">Suscribirse</h3>
           <p className="mb-4 text-sm">Recibí nuestras publicaciones y novedades institucionales.</p>
           <form className="flex flex-col gap-3">
             <input

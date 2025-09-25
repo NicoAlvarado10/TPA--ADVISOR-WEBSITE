@@ -81,7 +81,7 @@ export const Nav = () => {
       <div className="max-w-[90%] mx-auto 2xl:my-2 py-4 flex items-center justify-between">
         
         {/* Logos */}
-        <div className="flex items-center gap-4">
+        <div className="flex items-center w-full gap-4">
           <Link to="/">
             <img src="/LOGO-TPA-WEB.png" alt="Logo TPA" className="h-20" />
           </Link>
@@ -89,7 +89,7 @@ export const Nav = () => {
         </div>
 
         {/* menu de escritorio */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex w-full justify-end items-center gap-8">
           <ul className="flex items-center gap-6 text-sm font-medium">
             <li><Link to="/#nosotros" className="hover:text-blue-500 transition font-semibold">Nosotros</Link></li>
             
@@ -198,7 +198,7 @@ export const Nav = () => {
         </div>
 
         {/* Redes sociales */}
-        <div className="flex items-center max-md:hidden gap-4 text-2xl text-slate-600">
+        <div className="flex w-full justify-end items-center max-md:hidden gap-4 text-2xl text-slate-600">
           <a href="https://www.linkedin.com/company/tpa-advisors" target="_blank" rel="noopener noreferrer" className="hover:text-blue-700">
             <i className="ri-linkedin-fill"></i>
           </a>

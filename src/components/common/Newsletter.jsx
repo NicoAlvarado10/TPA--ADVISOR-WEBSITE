@@ -1,8 +1,8 @@
 export const Newsletter = () => {
   return (
-    <section className=" bg-gradient-to-bl from-[#002B70] to-[#001A4D] text-white py-12 px-4 mx-auto">
+    <section className=" bg-gradient-to-bl from-[#002B70] to-[#001A4D] text-white py-22 px-4 mx-auto">
       <div className="max-w-xl mx-auto text-center">
-        <h2 className="text-2xl md:text-4xl  mb-3">
+        <h2 className="text-3xl md:text-4xl  mb-3">
           Únete a nuestro Newsletter
         </h2>
         <p className="text-white/80 text-sm md:text-base mb-6">

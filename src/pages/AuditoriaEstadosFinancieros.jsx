@@ -38,7 +38,7 @@ const AuditoriaEstadosFinancieros = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-blue-900/50 to-transparent"></div>
         <div className="relative max-w-7xl mx-auto px-6 py-20">
           <div className="text-center">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 tracking-tight">
+            <h1 className="text-5xl md:text-6xl font-bold mb-6  tracking-wider">
               AUDITORÍA DE ESTADOS FINANCIEROS
             </h1>
             <div className="w-24 h-1 bg-yellow-400 mx-auto"></div>
@@ -139,10 +139,10 @@ const AuditoriaEstadosFinancieros = () => {
             <div className="text-white">
               <div className="flex items-center mb-8">
                 <div className="relative">
-                  <img 
-                    src="https://images.unsplash.com/photo-1494790108755-2616c1f97cc7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+                   <img 
+                    src="../../especialista.png"
                     alt="Especialista TPA"
-                    className="w-64 h-80 object-cover rounded-2xl shadow-2xl"
+                    className=" w-10/12 mx-auto object-cover rounded-2xl shadow-2xl"
                   />
                   <div className="absolute -bottom-4 -right-4 bg-yellow-400 p-4 rounded-xl shadow-lg">
                     <i className="ri-user-star-line text-2xl text-blue-900"></i>
@@ -269,7 +269,7 @@ const AuditoriaEstadosFinancieros = () => {
 
                 <button
                   type="submit"
-                  className="w-full bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-4 px-6 rounded-md transition duration-300 transform hover:scale-[1.02]"
+                  className="w-full cursor-pointer bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-4 px-6 rounded-md transition duration-300 transform hover:scale-[1.02]"
                 >
                   Enviar
                 </button>
@@ -303,7 +303,7 @@ const AuditoriaEstadosFinancieros = () => {
                 <h3 className="text-xl font-semibold text-gray-800 mb-6">Auditoría</h3>
                 <button 
                   onClick={() => alert('Descarga iniciada')}
-                  className="bg-blue-900 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-800 transform hover:scale-105 transition-all duration-200 shadow-lg"
+                  className="bg-blue-900 cursor-pointer text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-800 transform hover:scale-105 transition-all duration-200 shadow-lg"
                 >
                   DESCARGAR AHORA
                 </button>

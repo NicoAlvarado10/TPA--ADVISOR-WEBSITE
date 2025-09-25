@@ -69,18 +69,22 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-[#002B70] to-[#001A4D] text-white py-20">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <motion.h1 
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-5xl font-bold mb-4"
-          >
-            CONTACTO
-          </motion.h1>
+      
+      <div className="bg-gradient-to-br from-[#1e3a8a] to-[#1e40af] text-white relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/50 to-transparent"></div>
+        <div className="relative max-w-7xl mx-auto px-6 py-20">
+          <div className="text-center">
+            <h1 className="text-5xl md:text-6xl font-bold mb-6 tracking-wider">
+              Contacto
+            </h1>
+            <div className="w-24 h-1 bg-yellow-400 mx-auto"></div>
+          </div>
         </div>
-      </section>
+        {/* Decorative elements */}
+        <div className="absolute top-10 right-10 w-20 h-20 bg-white/5 rounded-full"></div>
+        <div className="absolute bottom-20 left-10 w-16 h-16 bg-yellow-400/20 rounded-full"></div>
+        <div className="absolute top-1/2 right-1/4 w-8 h-8 bg-white/10 rounded-full"></div>
+      </div>
 
       <div className="max-w-7xl mx-auto px-6 py-16">
         {/* main contact section */}

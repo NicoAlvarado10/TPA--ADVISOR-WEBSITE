@@ -114,14 +114,14 @@ const Services = () => {
 
   return (
     <section
-      className="p-10 py-24 max-sm:p-5 flex flex-col  justify-center items-center bg-white text-slate-900"
+      className="px-10 my-20 max-sm:p-5 flex flex-col  justify-center items-center bg-white text-slate-900"
       id="servicios"
     >
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="text-5xl font-semibold max-sm:text-3xl  max-sm:text-center"
+        className="text-5xl font-semibold   max-sm:text-center"
       >
         Nuestros <span className="text-[#E6C12C]">Servicios</span>
       </motion.h2>
